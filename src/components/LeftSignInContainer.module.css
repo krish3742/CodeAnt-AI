@@ -1,0 +1,146 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.subtractImage {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.contentContainer {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.container1 {
+  width: 100%;
+  height: 150px;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+}
+
+.logoContainer {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logoHeading {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.line {
+  width: 100%;
+  border: #e6e8f0 solid 1px;
+}
+
+.statisticsContainer {
+  padding: 20px 15px 20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.statisticsContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.statisticsCount {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.statisticsCategory {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.container2 {
+  position: relative;
+  width: 45%;
+  height: 125px;
+  border-radius: 25px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 2;
+  top: -15px;
+  right: -20px;
+  background-color: white;
+  padding: 15px 25px 15px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.issuesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weekContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.arrowUpContainer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.percentage {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #0049c6;
+  font-weight: bold;
+}
+
+.percentageHeading {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  padding-left: 7.5px;
+}
+
+.issuesStatistics {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.issuesStatisticsHeading {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.issuesStatisticsNumber {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  font-weight: bold;
+}

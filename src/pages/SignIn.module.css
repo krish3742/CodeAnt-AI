@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.leftContainer {
+  width: 50%;
+}
+
+.line {
+  height: calc(100vh - 2px);
+  border: #e6e8f0 solid 1px;
+}
+
+.rightContainer {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .leftContainer,
+  .line {
+    display: none;
+  }
+  .rightContainer {
+    width: 100%;
+  }
+}
