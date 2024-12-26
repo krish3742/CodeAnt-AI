@@ -214,7 +214,7 @@ function Dashboard() {
                       </div>
                       <div className={Style.repoStats}>
                         <img src={database} alt="Database"></img>
-                        <p className={Style.repoStatsCaption}>{repo.size}</p>
+                        <p className={Style.repoStatsCaption}>{repo.size} KB</p>
                       </div>
                       <div className={Style.repoStats}>
                         <p className={Style.repoStatsCaption}>
